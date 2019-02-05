@@ -9,6 +9,9 @@ import { UiModule } from './ui/ui.module';
 import { DashboardModule } from './module/dashboard/dashboard.module';
 import { RegistrationModule } from './module/registration/registration.module';
 import { PaymentModule } from './module/payment/payment.module';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import {ReportModule} from './report/report.module';
+
 
 
 @NgModule({
@@ -23,7 +26,9 @@ import { PaymentModule } from './module/payment/payment.module';
     UiModule,
     DashboardModule,
     RegistrationModule,
-    PaymentModule
+    ReportModule,
+    PaymentModule,
+    RouterModule
   ],
 
   providers: [],

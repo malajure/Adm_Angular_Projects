@@ -22,8 +22,8 @@ import { Component, OnInit } from '@angular/core';
   <clr-vertical-nav-group routerLinkActive="active">
     <clr-icon shape="bar-chart" clrVerticalNavIcon></clr-icon>Reports
       <clr-vertical-nav-group-children>
-        <a clrVerticalNavLink routerLink="./electric/pikachu" routerLinkActive="active">Registration Report</a>
-        <a clrVerticalNavLink routerLink="./electric/raichu" routerLinkActive="active">Payment Report</a>
+        <a clrVerticalNavLink routerLink="registration-report" routerLinkActive="active">Registration Report</a>
+        <a clrVerticalNavLink routerLink="payment-report" routerLinkActive="active">Payment Report</a>
       </clr-vertical-nav-group-children>
   </clr-vertical-nav-group>
   `,
