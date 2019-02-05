@@ -3,14 +3,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-header',
   template: `
-  <header class="header-1">
+  <clr-header class="header-4">
+  
   <div class="branding">
     <a class="nav-link">
-      <clr-icon shape="shield"></clr-icon>
-      <span class="title">Angular CLI</span>
+    <clr-icon shape="shield"></clr-icon>
+    <span class="title">ADM Manager</span>
     </a>
   </div>
- 
+  <div class="divider"></div>
   <div class="header-actions">
     <clr-dropdown class="dropdown bottom-right">
       <button class="nav-icon" clrDropdownToggle>
@@ -24,7 +25,8 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </clr-dropdown>
   </div>
-</header>
+  
+  </clr-header>
 
   `,
   styles: []
