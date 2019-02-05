@@ -1,0 +1,73 @@
+<h2>ADM registration for new policy</h2>
+  <form clrForm  (ngSubmit)="onSubmit()">
+  <clr-input-container>
+      <label>Application Number</label>
+      <input size=30 placeholder="Full name" clrInput [(ngModel)]="Applicationnumber" name="Application Number" required />
+  </clr-input-container>
+  <clr-input-container>
+      <label size=40 >Bank Account number</label>
+      <input size=30 placeholder="Account number" clrInput [(ngModel)]="Accountnumber" name="Bank Account number" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>Bank Account Holder Name</label>
+    <input size=30 placeholder="Holder Name" clrInput [(ngModel)]="Holdername" name="Bank Account Holder Name" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>PMLI Policy Owner Name</label>
+    <input size=30 placeholder="Owner Name" clrInput [(ngModel)]="Ownername" name="PMLI Policy Owner Name" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>SOL Id</label>
+    <input size=30 placeholder="SOL id" clrInput [(ngModel)]="id" name="SOL id" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>SOL Descr</label>
+    <input size=30 placeholder="SOL Descr" clrInput [(ngModel)]="Descr" name="SOL Descr" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>Pan No</label>
+    <input size=30 placeholder="Pan no" clrInput [(ngModel)]="pan" name="Pan no" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>Premium Amount</label>
+    <input size=30 placeholder="Amount" clrInput [(ngModel)]="Amount" name="Premium Amount" required />
+  </clr-input-container>
+  <clr-select-container>
+      <label>Collecting Bank</label>
+      <select clrSelect name="options" [(ngModel)]="options" required>
+        <option value="KBL Bank">One</option>
+        <option value="ICICI">Two</option>
+        <option value="SBI">Three</option>
+      </select>
+    </clr-select-container>
+  <clr-input-container>
+      <label>Micr Code</label>
+      <input size=30 placeholder="Full name" clrInput [(ngModel)]="code" name="Micr Code" required />
+  </clr-input-container>
+  <clr-input-container>
+      <label>IFSC Code</label>
+      <input size=30 placeholder="Full name" clrInput [(ngModel)]="Ifsccode" name="IFSC Code" required />
+  </clr-input-container>
+    <clr-radio-container clrInline>
+        <label>Account type of the Customer</label>
+        <clr-radio-wrapper>
+          <input type="radio" clrRadio name="options" required value="Saving" [(ngModel)]="Saving" />
+          <label>Saving</label>
+        </clr-radio-wrapper>
+        <clr-radio-wrapper>
+          <input type="radio" clrRadio name="options" required value="Current" [(ngModel)]="Current" />
+          <label>Current</label>
+        </clr-radio-wrapper>
+      </clr-radio-container>
+  <clr-input-container>
+        <label>Currency</label>
+        <input size=30 placeholder="Currency" clrInput [(ngModel)]="Currency" name="Currency" required />
+    </clr-input-container>
+
+    <br/>
+    <button type="submit" class="btn btn-success-outline">Save
+    </button>
+    <button type="reset" class="btn btn-info-outline">Reset
+    </button>
+
+</form>
