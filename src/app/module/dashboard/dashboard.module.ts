@@ -6,8 +6,7 @@ import { ClarityModule,ClrFormsDeprecatedModule} from '@clr/angular';
 import { RedirectComponent } from './redirect/redirect.component';
 
 @NgModule({
-  declarations: [DashboardComponent,
-    RedirectComponent],
+  declarations: [DashboardComponent,RedirectComponent],
   imports: [
     CommonModule,
     FormsModule,
