@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ClarityModule,ClrFormsDeprecatedModule } from '@clr/angular';
+import { ClarityModule } from '@clr/angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UiModule } from './ui/ui.module';
 import { DashboardModule } from './module/dashboard/dashboard.module';
@@ -18,15 +18,11 @@ import {ReportModule} from './report/report.module';
   declarations: [
     AppComponent
   ],
-  
   imports: [
     BrowserModule,
     AppRoutingModule,
     ClarityModule,
     BrowserAnimationsModule,
-    FormsModule,
-    ReactiveFormsModule,
-    ClrFormsDeprecatedModule,
     UiModule,
     DashboardModule,
     RegistrationModule,

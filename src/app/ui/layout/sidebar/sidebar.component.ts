@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   <a clrVerticalNavLink routerLink="./dashboard" routerLinkActive="active">
   <clr-icon clrVerticalNavIcon shape="dashboard"></clr-icon>Dashboard</a>
 
+  <a clrVerticalNavLink routerLink="./adm-payment" routerLinkActive="active">
+  <clr-icon clrVerticalNavIcon shape="dollar-bill"></clr-icon>One Time Payment</a>
+
   <clr-vertical-nav-group routerLinkActive="active">
   <clr-icon shape="add-text" clrVerticalNavIcon></clr-icon>ADM Registration
     <clr-vertical-nav-group-children>
@@ -14,11 +17,10 @@ import { Component, OnInit } from '@angular/core';
     </clr-vertical-nav-group-children>
 </clr-vertical-nav-group>
 
-  <a clrVerticalNavLink routerLink="./adm-payment" routerLinkActive="active">
-  <clr-icon clrVerticalNavIcon shape="dollar-bill"></clr-icon>ADM Payment</a>
+  
 
   <clr-vertical-nav-group routerLinkActive="active">
-    <clr-icon shape="grid-chart" clrVerticalNavIcon></clr-icon>Reports
+    <clr-icon shape="bar-chart" clrVerticalNavIcon></clr-icon>Reports
       <clr-vertical-nav-group-children>
         <a clrVerticalNavLink routerLink="registration-report" routerLinkActive="active">Registration Report</a>
         <a clrVerticalNavLink routerLink="payment-report" routerLinkActive="active">Payment Report</a>
