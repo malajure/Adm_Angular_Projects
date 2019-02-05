@@ -14,7 +14,7 @@ export class Existingregstep1Component implements OnInit {
   }
 
   onSearch(){
-    this.router.navigate(['dashboard']);
+    this.router.navigate(['/existing-registation-2']);
   }
 
 }

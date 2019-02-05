@@ -15,7 +15,7 @@ import { Component, OnInit } from '@angular/core';
       <a clrVerticalNavLink routerLink="./adm-registation" routerLinkActive="active">New Policy Registration</a>
       <a clrVerticalNavLink routerLink="./existing-registation-1" routerLinkActive="active">Existing Policy Registration</a>
     </clr-vertical-nav-group-children>
-</clr-vertical-nav-group>s
+</clr-vertical-nav-group>
 
   
 
