@@ -1,0 +1,21 @@
+
+<form clrForm>
+    <!-- <clr-input-container>  
+        <input clrInput type="text" placeholder="Application/Policy Number" (click)="submit()" size=70/>
+       
+    </clr-input-container>   -->
+    
+
+    
+    <!-- <button type="submit" class="btn btn-success-outline" (click)="submit()">Search
+          <i class="fa fa-search"></i>
+    </button> -->
+    <div class="search-pf-input-group">
+            <label for="searchBox" class="sr-only">Search</label>
+            <input type="search" class="form-control" placeholder="Application/Policy Number"
+                   name="searchBox" size=70>
+                   <clr-icon shape="search" (click)="submit()"></clr-icon>          
+              
+      
+    </div>  
+</form>
