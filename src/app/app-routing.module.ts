@@ -9,7 +9,7 @@ import { RegistrationReportComponent } from './report/registration-report/regist
 import { PaymentReportComponent } from './report/payment-report/payment-report.component';
 import { Registrationstep1Component } from './module/registration/registrationstep1/registrationstep1.component';
 import { Registrationstep2Component } from './module/registration/registrationstep2/registrationstep2.component';
-import { Existingregstep1Component } from './module/registration/existingregstep1/existingregstep1.component';
+import { Existingregstep1Component } from './module/registration/existingreg/existingregstep1/existingregstep1.component';
 import { Existingregstep2Component } from './module/registration/existingreg/existingregstep2/existingregstep2.component';
 import { Existingregstep3Component } from './module/registration/existingreg/existingregstep3/existingregstep3.component';
 
@@ -28,12 +28,11 @@ const routes: Routes = [
   { path: 'registration-report',component:RegistrationReportComponent},
   { path: 'payment-report',component:PaymentReportComponent},
   { path: 'adm-registation', component: Registrationstep1Component },
-  { path: 'adm-registation-2', component: Registrationstep2Component }
+  { path: 'adm-registation-2', component: Registrationstep2Component },
 
     { path: 'existing-registation-1', component: Existingregstep1Component },
   { path: 'existing-registation-2', component: Existingregstep2Component },
-  { path: 'existing-registation-3', component: Existingregstep3Component },
-  { path: 'adm-payment', component: PaymentComponent }
+  { path: 'existing-registation-3', component: Existingregstep3Component }
 
 ];
 

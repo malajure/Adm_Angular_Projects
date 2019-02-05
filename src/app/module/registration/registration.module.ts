@@ -5,7 +5,7 @@ import { ClarityModule,ClrFormsDeprecatedModule} from '@clr/angular';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
 import { Registrationstep2Component } from './registrationstep2/registrationstep2.component';
-import { Existingregstep1Component } from './existingregstep1/existingregstep1.component';
+import { Existingregstep1Component } from './existingreg/existingregstep1/existingregstep1.component';
 import { Existingregstep2Component } from './existingreg/existingregstep2/existingregstep2.component';
 import { Existingregstep3Component } from './existingreg/existingregstep3/existingregstep3.component';
 
