@@ -1,0 +1,12 @@
+<h2>ADM Registration for Exiting Policy</h2>
+<form clrForm (ngSubmit)="onSearch()">
+    <clr-input-container>
+        <label>Policy Number</label>
+        <input placeholder="Policy Number" clrInput [(ngModel)]="policynumber" name="Policy Number" required />
+    </clr-input-container>
+
+<br/>
+<button class="btn btn-outline">Search</button>
+<button class="btn btn-success-outline">Reset</button>
+
+</form>
