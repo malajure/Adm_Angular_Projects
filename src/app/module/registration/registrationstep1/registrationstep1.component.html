@@ -1,0 +1,78 @@
+<form clrForm>
+    <section class="title">
+        <h1 style="background-color:DodgerBlue;">Hello World</h1>
+        Company Product Name
+        <h5 class="hint">Use your Company ID to sign in or create one now</h5>
+    </section>
+  </form>
+  <form clrForm>
+  <clr-input-container>
+      <label>Application Number</label>
+      <input placeholder="Full name" clrInput [(ngModel)]="Applicationnumber" name="Application Number" required />
+  </clr-input-container>
+  <clr-input-container>
+      <label>Bank Account number</label>
+      <input placeholder="Account number" clrInput [(ngModel)]="Accountnumber" name="Bank Account number" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>Bank Account Holder Name</label>
+    <input placeholder="Holder Name" clrInput [(ngModel)]="Holdername" name="Bank Account Holder Name" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>PMLI Policy Owner Name</label>
+    <input placeholder="Owner Name" clrInput [(ngModel)]="Ownername" name="PMLI Policy Owner Name" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>SOL id</label>
+    <input placeholder="SOL id" clrInput [(ngModel)]="id" name="SOL id" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>SOL Descr</label>
+    <input placeholder="SOL Descr" clrInput [(ngModel)]="Descr" name="SOL Descr" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>pan No</label>
+    <input placeholder="Pan no" clrInput [(ngModel)]="pan" name="Pan no" required />
+  </clr-input-container>
+  <clr-input-container>
+    <label>Premium Amount</label>
+    <input placeholder="Amount" clrInput [(ngModel)]="Amount" name="Premium Amount" required />
+  </clr-input-container>
+  <clr-select-container>
+      <label>Collecting Bank</label>
+      <select clrSelect name="options" [(ngModel)]="options" required>
+        <option value="KBL Bank">One</option>
+        <option value="ICIC">Two</option>
+        <option value="SBI">Three</option>
+      </select>
+      <clr-control-helper>Helper text</clr-control-helper>
+      <clr-control-error>This field is required!</clr-control-error>
+    </clr-select-container>
+  <clr-input-container>
+      <label>Micr Code</label>
+      <input placeholder="Full name" clrInput [(ngModel)]="code" name="Micr Code" required />
+  </clr-input-container>
+  <clr-input-container>
+      <label>IFSC Code</label>
+      <input placeholder="Full name" clrInput [(ngModel)]="Ifsccode" name="IFSC Code" required />
+  </clr-input-container>
+    <clr-radio-container clrInline>
+        <label>Account type of the Customer</label>
+        <clr-radio-wrapper>
+          <input type="radio" clrRadio name="options" required value="Saving" [(ngModel)]="Saving" />
+          <label>Saving</label>
+        </clr-radio-wrapper>
+        <clr-radio-wrapper>
+          <input type="radio" clrRadio name="options" required value="Current" [(ngModel)]="Current" />
+          <label>Current</label>
+        </clr-radio-wrapper>
+        <clr-control-helper>Helper text</clr-control-helper>
+        <clr-control-error>This field is required!</clr-control-error>
+      </clr-radio-container>
+  <clr-input-container>
+        <label>Currency</label>
+        <input placeholder="Currency" clrInput [(ngModel)]="Currency" name="Currency" required />
+    </clr-input-container>
+
+</form>
+
