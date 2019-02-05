@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   <div class="branding">
     <a class="nav-link">
     <clr-icon shape="shield"></clr-icon>
-    <span class="title">ADM Manager</span>
+    <span class="title">PNB Metlife Payment Portal</span>
     </a>
   </div>
   <div class="divider"></div>
