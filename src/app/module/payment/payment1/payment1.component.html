@@ -1,0 +1,23 @@
+<h2>Make a Payment</h2>
+
+<form clrForm >
+       <clr-input-container>
+           <label>Application / Policy Number:</label>
+           <input clrInput type="text" placeholder="Enter Application / Policy Number" [(ngModel)]="number" name="number" size=30 />
+       </clr-input-container>
+    
+       <clr-select-container>
+         <label>Type</label>
+         <select clrSelect name="options" [(ngModel)]="options">
+           <option value="premium">First premium</option>
+           <option value="renewal">Renewal premium</option>
+         </select>
+         <span class="clr-subtext">Select type of Payment</span>
+       </clr-select-container>
+      <br>
+      <button class="btn btn-success-outline" id="submit" type="submit" (click)="submit()" >Next</button>
+      <button type="reset" class="btn btn-info-outline">Reset</button>
+   
+</form>
+
+   

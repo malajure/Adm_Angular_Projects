@@ -1,0 +1,73 @@
+<h2>Payment Details</h2>
+<form clrForm >
+  
+      <clr-input-container>
+           <label>Application Number:</label>
+           <input clrInput type="text" placeholder="Application Number" [(ngModel)]="appno" name="appno" size=30/>
+      </clr-input-container>
+      <clr-input-container>
+        <label>Policy Number:</label>
+        <input clrInput type="text" placeholder="Policy Number" [(ngModel)]="policyno" name="policyno" size=30 />
+      </clr-input-container>
+      <clr-input-container>
+        <label>PI Name:</label>
+        <input clrInput type="text" placeholder="Life Insurance coverage Person's Name" [(ngModel)]="piname" name="piname" size=30 />
+      </clr-input-container>
+      <clr-input-container>
+        <label>PO Name</label>
+        <input clrInput type="text" placeholder="Person who is making payment" [(ngModel)]="poname" name="poname" size=30 />
+      </clr-input-container>
+      <clr-input-container>
+        <label>PO's DOB</label>
+        <input clrInput type="date" [(ngModel)]="poDOB" name="poDOB" size=30/>
+      </clr-input-container>
+      <clr-input-container>
+        <label>State:</label>
+        <input clrInput type="text" placeholder="State of the Customer"  [(ngModel)]="State" name="State" size=30/>
+      </clr-input-container>
+      <clr-input-container>
+        <label>Product / Rider Name:</label>
+        <input clrInput type="text" placeholder="Name of the Product"  [(ngModel)]="pdtname" name="pdtname" size=30/>
+      </clr-input-container>
+      <clr-input-container>
+        <label>Product PPT:</label>
+        <input clrInput type="text" placeholder="No. of Year" [(ngModel)]="pdtppt" name="pdtppt" size=30/>
+      </clr-input-container>
+      <clr-input-container>
+        <label>Product Term:</label>
+        <input clrInput type="text" placeholder="No. of year from the date of policy" [(ngModel)]="pdtterm" name="pdtterm" size=30 />
+      </clr-input-container>
+      <clr-input-container>
+        <label>Annual Premium Amount:</label>
+        <input clrInput type="text" placeholder="Amount paid yearly"  [(ngModel)]="apamt" name="apamt" size=30/>
+      </clr-input-container>
+      <clr-input-container>
+        <label>Payment frequency:</label>
+        <input clrInput type="text" placeholder="No. of times the customer makes payment" [(ngModel)]="paymentfrequency" name="paymentfrequency" size=30/>
+      </clr-input-container>
+      <clr-input-container>
+        <label>Amount Due:</label>
+        <input clrInput type="text" placeholder="Amount Due" [(ngModel)]="amtdue" name="amtdue" size=30/>
+      </clr-input-container>
+      <clr-input-container>
+        <label>Due date:</label>
+        <input clrInput type="date" [(ngModel)]="duedate" name="duedate" size=30 />
+      </clr-input-container>
+      <clr-input-container>
+        <label>Policy Status:</label>
+        <input clrInput type="text" placeholder="e.g:proposal,In force,Paid up" [(ngModel)]="status" name="status" size=30/>
+      </clr-input-container>
+      <clr-input-container>
+        <label>Mode of Payment:</label>
+        <input clrInput type="text" placeholder="e.g: Cheque,Voucher"  [(ngModel)]="modeofpayment" name="modeofpayment" size=30 />
+      </clr-input-container>
+   <br>
+   <button type="submit" class="btn btn-success-outline" (click)="submit()">Execute MetPremADM</button>
+   
+   <button type="reset" class="btn btn-info-outline">Reset
+   </button>
+  
+   </form>
+   
+   
+  
