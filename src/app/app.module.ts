@@ -10,6 +10,7 @@ import { DashboardModule } from './module/dashboard/dashboard.module';
 import { RegistrationModule } from './module/registration/registration.module';
 import { PaymentModule } from './module/payment/payment.module';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import {ReportModule} from './report/report.module';
 
 
 
@@ -29,6 +30,7 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
     UiModule,
     DashboardModule,
     RegistrationModule,
+    ReportModule,
     PaymentModule,
     RouterModule
   ],
