@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterModule , Router } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard',
@@ -67,13 +68,22 @@ import { Component, OnInit } from '@angular/core';
   non, imperdiet ipsum.
 </p>
   `,
+  templateUrl: './dashboard.component.html',
   styles: []
 })
 export class DashboardComponent implements OnInit {
 
-  constructor() { }
+  // constructor() { }
+  constructor(private router: Router) {
+  }
 
   ngOnInit() {
   }
 
-}
+  submit() {
+    console.log("testinggggg");
+    this.router.navigate(['/redirect']);
+  } 
+
+  }
+
